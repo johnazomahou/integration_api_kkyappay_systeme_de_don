@@ -1,0 +1,55 @@
+.rxj {
+    cursor: pointer;
+}
+
+@media (width < 500px) {
+
+    .nous1 {
+        display: none;
+    }
+
+    .nous {
+        display: block;
+    }
+
+    .min{
+
+        flex-direction: column;
+    }
+
+}
+
+@media (width <= 990px) {
+
+   .min-c {
+
+       text-align: center;
+   }
+   .min-reverse{
+    flex-direction: column-reverse !important;
+   }
+
+}
+
+@media ( 400px <= width <= 990px) {
+
+    .min{
+        flex-direction: column;
+    }
+    
+    
+}
+
+@media (width > 500px) {
+
+    .nous1 {
+        display: block;
+    }
+
+    .nous {
+        display: none;
+    }
+
+
+
+}
